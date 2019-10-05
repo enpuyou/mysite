@@ -199,7 +199,7 @@ export default props => {
           },
           {
             name: 'linkedin',
-            href: 'https://ie.linkedin.com/in/darrenbritton',
+            href: 'linkedin.com/in/enpuyou',
           },
         ]}
       />
