@@ -190,16 +190,12 @@ export default props => {
         }}
         icons={[
           {
-            name: 'twitter',
-            href: 'https://twitter.com/darren_britton',
-          },
-          {
             name: 'github-alt',
             href: 'https://github.com/enpuyou',
           },
           {
             name: 'linkedin',
-            href: 'linkedin.com/in/enpuyou',
+            href: 'https://linkedin.com/in/enpuyou',
           },
         ]}
       />
@@ -209,14 +205,10 @@ export default props => {
         <Flex alignItems="center" flexDirection="column">
           <Box px={2} width={[1, 1 / 2]}>
             <p>
-              Currently working as a software engineer at{' '}
-              <a href="https://shutterstock.com">Shutterstock</a> focusing on
-              the editorial content platform. As far as my work goes I've
-              probably worn every hat on the rack, most notable being Web
-              Developer, Software Engineer and Photographer. Don’t let my clean
-              lines and weakness for Swiss type fool you; My work has been
-              pretty diverse and enjoyable. For more information about me follow
-              one of my social media links above or at the bottom of the page.
+            My name is Enpu. I am a software developer, pianist, and student,
+            thinking about the interaction of music and humanity in the
+            digital world, currently researching automated testing and
+            electro-acoustic music.
             </p>
           </Box>
           <Box px={2} width={180}>
@@ -236,26 +228,21 @@ export default props => {
       <a id="experience">Experience</a>
       <Section center dark>
         <h4>Experience</h4>
-        <span>Where I've worked.</span>
+
         <Item>
-          <span>MAY 2018 - CURRENT</span>
-          <h6>SHUTTERSTOCK</h6>
-          <p>Software Engineer</p>
+          <span>AUG 2019 - CURRENT</span>
+          <h6>Allegheny Mozilla Fellow</h6>
+          <p>Allegheny Mozilla Fellow</p>
         </Item>
         <Item>
-          <span>JUNE 2016 - APRIL 2018</span>
-          <h6>SAP IRELAND</h6>
+          <span>AUG 2019 - PRESENT</span>
+          <h6>Technical Lead</h6>
           <p>Full Stack Developer</p>
         </Item>
         <Item>
-          <span>FEB 2015 - AUG 2015</span>
-          <h6>SAP IRELAND</h6>
+          <span>May 2019 - Present</span>
+          <h6>Founder/President of Electronic Music at Allegheny College (EMAC)</h6>
           <p>Support Engineer</p>
-        </Item>
-        <Item>
-          <span>JAN 2014 - JULY 2014</span>
-          <h6>ST DECLAN'S COLLEGE</h6>
-          <p>Full Stack Developer</p>
         </Item>
       </Section>
       <a id="tech">Tech</a>
@@ -271,36 +258,29 @@ export default props => {
       <a id="education">Education</a>
       <Section dark center>
         <h4>EDUCATION</h4>
-        <span>Education I've recieved.</span>
         <Item>
-          <span>2012 - 2016</span>
-          <h6>BSC COMPUTER SCIENCE (1st Class Honours)</h6>
-          <p>Dublin Institute of Technology</p>
-        </Item>
-        <Item>
-          <span>2006 - 2012</span>
-          <h6>SECONDARY EDUCATION</h6>
-          <p>Saint Declan's College</p>
+          <span>2017 - 2021</span>
+          <h6>Bachelor of Science</h6>
+          <p>Allegheny College Double Major CS and Music</p>
         </Item>
       </Section>
       <a id="honoursAndAwards">Honours & Awards</a>
       <Section center>
         <h4>HONORS & AWARDS</h4>
-        <span>A list of honors and awards I have recieved for my work.</span>
         <Item>
-          <span>2016</span>
-          <h6>BEST PROJECT (IN THE DIT PROJECT FAIR)</h6>
-          <p>SAP</p>
+          <span>2018 - 2019</span>
+          <h6>Distinguished Alden Scholar</h6>
+          <p>Allegheny College</p>
         </Item>
         <Item>
-          <span>2014</span>
-          <h6>GAMES STUDIO IRELAND CHALLENGE: BEST IN ORIGINAL STORY</h6>
-          <p>Games Fleadh</p>
+          <span>MAY 2019</span>
+          <h6>Frederick and Lucille Marantz Memorial Prize</h6>
+          <p>Allegheny College Department of Music</p>
         </Item>
         <Item>
-          <span>2010</span>
-          <h6>ACCESS ACCENTURE ACHIEVEMENT AWARD</h6>
-          <p>Accenture</p>
+          <span>2017 - 2018</span>
+          <h6>Alden Scholar</h6>
+          <p>Allegheny College</p>
         </Item>
       </Section>
     </Content>
