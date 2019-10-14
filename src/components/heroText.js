@@ -28,7 +28,7 @@ const StyledTypist = styled(Typist)`
 `
 
 class HeroText extends React.Component {
-  render() {
+  render () {
     if (this.props.text) {
       return (
         <Typist>
@@ -48,9 +48,9 @@ class HeroText extends React.Component {
     return (
       <StyledTypist cursor={{ show: false }} {...this.props}>
         <strong>I Make</strong> Music
-        <Typist.Backspace count={9} delay={300} />
-        <span> Web Apps</span>
-        <Typist.Backspace count={9} delay={300} />
+        <Typist.Backspace count={6} delay={300} />
+        <span> Softwares</span>
+        <Typist.Backspace count={10} delay={300} />
         <span> Video Games</span>
         <Typist.Backspace count={12} delay={300} />
         <span> Poor Life Decisions</span>
