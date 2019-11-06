@@ -205,10 +205,10 @@ export default props => {
         <Flex alignItems="center" flexDirection="column">
           <Box px={2} width={[1, 1 / 2]}>
             <p>
-            My name is Enpu. I am a software developer, pianist, and student,
-            thinking about the interaction of music and humanity in the
-            digital world, currently researching automated testing and
-            electro-acoustic music.
+            My name is Enpu. I am a software developer and pianist,
+            thinking about the interaction of music and humanity
+            in the digital world, currently researching natural
+            language processing and electro-acoustic music.
             </p>
           </Box>
           <Box px={2} width={180}>
@@ -230,19 +230,19 @@ export default props => {
         <h4>Experience</h4>
 
         <Item>
-          <span>AUG 2019 - CURRENT</span>
+          <span>AUG 2019 - PRESENT</span>
           <h6>Allegheny Mozilla Fellow</h6>
-          <p>Allegheny Mozilla Fellow</p>
+          <p>Allegheny College</p>
         </Item>
         <Item>
           <span>AUG 2019 - PRESENT</span>
           <h6>Technical Lead</h6>
-          <p>Full Stack Developer</p>
+          <p>Allegheny College Computer Science Department</p>
         </Item>
         <Item>
-          <span>May 2019 - Present</span>
-          <h6>Founder/President of Electronic Music at Allegheny College (EMAC)</h6>
-          <p>Support Engineer</p>
+          <span>MAY 2019 - PRESENT</span>
+          <h6>Founder/President</h6>
+          <p>Electronic Music at Allegheny College (EMAC)</p>
         </Item>
       </Section>
       <a id="tech">Tech</a>
@@ -261,7 +261,7 @@ export default props => {
         <Item>
           <span>2017 - 2021</span>
           <h6>Bachelor of Science</h6>
-          <p>Allegheny College Double Major CS and Music</p>
+          <p>Allegheny College, Computer Science and Music Double Major</p>
         </Item>
       </Section>
       <a id="honoursAndAwards">Honours & Awards</a>
