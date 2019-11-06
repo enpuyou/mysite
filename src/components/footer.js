@@ -95,8 +95,8 @@ class Footer extends React.Component {
             <Flex alignItems="center" justifyContent="center">
               <GalleryContainer>
                 <FlickrLightbox
-                  api_key="1b4e5b0203fab0d5731afe68f0a543e1"
-                  user_id="132343752@N06"
+                  api_key="42e9a5830cdc4ce953c13fb89063fcd8"
+                  user_id="185367030@N02"
                   limit={8}
                 />
               </GalleryContainer>
