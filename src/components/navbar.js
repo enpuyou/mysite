@@ -21,6 +21,9 @@ const Base = styled.div`
     list-style: none;
     font-size: 13px;
   }
+  & div > a {
+    margin-left:10px;
+  }
   & ul > li a,
   & ul > li {
     height: 62px;

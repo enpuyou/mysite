@@ -8,8 +8,6 @@ const Base = styled.a`
   margin: 20px 0;
   width: fit-content;
   white-space: nowrap;
-  transition-property: transform;
-  transition-duration: 0.8s;
 
   &:hover {
     cursor: pointer;
@@ -17,7 +15,6 @@ const Base = styled.a`
     -webkit-background-clip: text;
     background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif);
     text-decoration: none;
-    -webkit-transform:rotate(354deg);
   }
 
   ${props =>

@@ -211,15 +211,6 @@ export default props => {
             language processing and electro-acoustic music.
             </p>
           </Box>
-          <Box px={2} width={180}>
-            <Img
-              sizes={
-                props.data.allFile
-                  ? props.data.allFile.edges[0].node.childImageSharp.sizes
-                  : {}
-              }
-            />
-          </Box>
         </Flex>
       </Section>
       <Title small>Portfolio</Title>
@@ -331,17 +322,6 @@ export const pageQuery = graphql`
           id
           childImageSharp {
             sizes(maxWidth: 300, grayscale: true) {
-              ...GatsbyImageSharpSizes_tracedSVG
-            }
-          }
-        }
-      }
-    }
-    allFile(filter: { name: { regex: "/signature/" } }) {
-      edges {
-        node {
-          childImageSharp {
-            sizes(maxWidth: 200, grayscale: true) {
               ...GatsbyImageSharpSizes_tracedSVG
             }
           }
