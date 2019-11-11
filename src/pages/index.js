@@ -197,6 +197,10 @@ export default props => {
             name: 'linkedin',
             href: 'https://linkedin.com/in/enpuyou',
           },
+          {
+            name: 'fab fa-youtube',
+            href: 'https://www.youtube.com/channel/UC1jivHCNYHYxwruBZgnMtrw?view_as=subscriber',
+          },
         ]}
       />
       <a id="about-me">About Me</a>

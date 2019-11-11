@@ -25,10 +25,10 @@ const Base = styled.div`
   & a:hover span.fa-linkedin {
     color: #4875b4;
   }
-  & a:hover span.fa-twitter {
-    color: #3cf;
-  }
   & a:hover span.fa-github-alt {
+    color: #fc6d26;
+  }
+  & a:hover span.fa-youtube {
     color: #fc6d26;
   }
 `

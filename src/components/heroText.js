@@ -51,6 +51,8 @@ class HeroText extends React.Component {
         <Typist.Backspace count={10} delay={300} />
         <span> Music</span>
         <Typist.Backspace count={6} delay={300} />
+        <span> Coffee</span>
+        <Typist.Backspace count={7} delay={300} />
         <span> Poor Life Decisions</span>
         <Typist.Delay ms={100} />
         <span>.</span>
@@ -59,7 +61,7 @@ class HeroText extends React.Component {
         <Typist.Delay ms={300} />
         <span>.</span>
         <Typist.Backspace count={29} delay={10} />
-        <strong>But Mostly Just</strong> Cool Stuffs
+        <strong>But Mostly Just</strong> Cool Stuff
       </StyledTypist>
     )
   }
