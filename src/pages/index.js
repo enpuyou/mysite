@@ -4,6 +4,7 @@ import { Flex, Box } from 'grid-styled'
 import styled, { css } from 'styled-components'
 import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
+import { Document } from 'react-pdf'
 
 import { media } from '../utils/style'
 
@@ -206,6 +207,7 @@ export default props => {
       <a id="about-me">About Me</a>
       <Section>
         <Title>About Me</Title>
+        <a href="Enpu_s_CV.pdf">Link Text Here</a>
         <Flex alignItems="center" flexDirection="column">
           <Box px={2} width={[1, 1 / 2]}>
             <p>
