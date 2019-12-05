@@ -1,5 +1,11 @@
 # Enpu portfolio site
 
-[![CodeFactor](https://www.codefactor.io/repository/github/darrenbritton/darrenbritton.github.io/badge)](https://www.codefactor.io/repository/github/darrenbritton/darrenbritton.github.io)
-[![Greenkeeper badge](https://badges.greenkeeper.io/darrenbritton/darrenbritton.github.io.svg)](https://greenkeeper.io/)
-[![CircleCI](https://circleci.com/gh/darrenbritton/darrenbritton.github.io.svg?style=svg)](https://circleci.com/gh/darrenbritton/darrenbritton.github.io)
+## Site build Process
+
+This is a site build on `React` and `Gatsby` framework with a pre-template.
+Before this assignment, I have very minimum understand over web development, including programming languages like `html`, `javascript`, `css`, and this is also the biggest challenge in this project for me. The first step is what we have discussed in class about the information architecture of a personal website. With the advice from professor and other students from class, I was
+able to to start this project at a right spot. It's mainly a learning process, in which I went through the basic `React` and `Gatsby`, `html`, and `javascript` tutorial from the documentation online. In the development stage, I learned some of the basic usage of `gatsby-cli`, and with that I was able to develop my site locally. I also learned more about structure of websites, technologies like `graphQL` better.
+
+The site is mainly build for whomever is interested to see my work and my information in a casual fashion, without the certain knowledge needed for platforms like `github`. As I have applied for a few internship/research programs, it seems that personal website is always one of the bonus points thought not required. Without the limitation of `github` and `linkedin` interface, personal website is easier to customize with a personal style. In the case of my website, it is a single page portfolio, categorized into six sections: about me, portfolio experience, tech, education, honors&awards. The hero page has links to `github`, `linkedin`, and `youtube`. It is easy to navigate.
+
+The design of my site is inspired ideas from some readings we have done this semester and also some other online portfolio sites. The readings on `Hosting on Netlify`, `Quick Start with Hugo`, and `Acquiring a domain name` are very helpful on the implementation for programmers like me who are not necessarily familiar with web development. Also the readings from earlier this semester like `Tell good stories` help me to form a developer narrative, which also aligns with the site narrative. I think one of the strengths in my site is the hero page with the photos I took and the dynamic texts. Even though I'm still working on coming up with a better idea for the hero text, it should serve the need at this point.
