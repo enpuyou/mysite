@@ -32,7 +32,6 @@ const Base = styled.div`
     position: relative;
     color: #fff;
     text-decoration: none;
-    cursor: pointer;
     transition: opacity .3s ease;
   }
   & ul > li a {
@@ -41,6 +40,10 @@ const Base = styled.div`
     font-weight: 600;
     letter-spacing: 1px;
     margin-right: 32px;
+  }
+  & a:hover {
+    color: #4875b4;
+    cursor: pointer;
   }
 
   ${props =>
