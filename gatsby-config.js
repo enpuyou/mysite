@@ -6,7 +6,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`pacifico:400`, `raleway:100,400,600,700`, "lato: 300,400,500"]
+        fonts: [
+          `pacifico:400`,
+          `raleway:100,400,600,700`,
+          `lato: 300,400,500`,
+          `Montserrat: 300,400,500`]
       }
     },
     {

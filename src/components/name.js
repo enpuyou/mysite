@@ -3,7 +3,8 @@ import styled, { css } from 'styled-components'
 
 const Base = styled.a`
   font-size: 20pt;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat';
+  font-weight: 500;
   color: #fff;
   margin: 20px 0;
   width: fit-content;
@@ -14,7 +15,6 @@ const Base = styled.a`
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif);
-    text-decoration: none;
   }
 
   ${props =>
