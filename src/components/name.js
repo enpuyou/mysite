@@ -46,7 +46,7 @@ class Name extends React.Component {
   render() {
     return (
       <Base {...this.props} href="/">
-        Enpu You
+        ENPU YOU
       </Base>
     )
   }
