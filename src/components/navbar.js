@@ -27,7 +27,7 @@ const Base = styled.div`
   & ul > li a,
   & ul > li {
     height: 62px;
-    font-size: 11px;
+    font-size: 12px;
     float: right;
     position: relative;
     color: #fff;
@@ -40,9 +40,23 @@ const Base = styled.div`
     font-weight: 600;
     letter-spacing: 1px;
     margin-right: 32px;
+    transition: all 0.20s cubic-bezier(1, 0, 0.58, 0.97);
+  }
+  & ul > li a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: calc(50% - 1.5px);
+    right: 0;
+    background: #90ee90;
+    transition: inherit;
+  }
+  & a:hover:before {
+    left: 0;
+    width: 100%;
   }
   & a:hover {
-    color: #4875b4;
     cursor: pointer;
   }
 
