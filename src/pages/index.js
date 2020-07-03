@@ -261,7 +261,7 @@ export default props => {
           <p>Allegheny College, Computer Science and Music Double Major</p>
         </Item>
       </Section>
-      <a id="honoursAndAwards">Honours & Awards</a>
+      <a id="honorsAndAwards">Honors & Awards</a>
       <Section center>
         <h4>HONORS & AWARDS</h4>
         <Item>
