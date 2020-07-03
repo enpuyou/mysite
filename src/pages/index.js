@@ -5,6 +5,7 @@ import styled, { css } from 'styled-components'
 import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
 import { Document } from 'react-pdf'
+import resumePDF from '../../static/resume.pdf'
 
 import { media } from '../utils/style'
 
@@ -211,7 +212,8 @@ export default props => {
         <Flex alignItems="center" flexDirection="column">
           <Box px={2} width={[1, 1 / 2]}>
             <p>
-            My name is Enpu. I am a software developer and pianist,
+            My name is
+            <a href={resumePDF} view> Enpu</a>. I am a software developer and pianist,
             thinking about the interaction of music and humanity
             in the digital world, currently researching natural
             language processing and electro-acoustic music.
