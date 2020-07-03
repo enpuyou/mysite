@@ -39,7 +39,7 @@ const PageBase = ({ location, children }) => {
         title="Enpu You"
         meta={[
           { name: 'description', content: 'portfolio' },
-          { name: 'keywords', content: 'darren, britton, portfolio' },
+          { name: 'keywords', content: 'enpu, you, portfolio' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         ]}
       />
