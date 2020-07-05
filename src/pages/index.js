@@ -5,6 +5,7 @@ import styled, { css } from 'styled-components'
 import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
 import { Document } from 'react-pdf'
+import resumePDF from '../../static/resume.pdf'
 
 import { media } from '../utils/style'
 
@@ -14,6 +15,13 @@ import HeroText from '../components/heroText'
 import SocialIcons from '../components/socialIcons'
 import Portfolio from '../components/portfolio'
 import Showcase from '../components/showcase'
+import Carousel from '../components/carousel'
+import Slider from '../components/slider'
+
+import Image1 from '../pages/portfolio/images/gatorgrader.png';
+import Image2 from '../pages/portfolio/images/gatorgrader.png';
+
+const images = [Image1, Image2];
 
 const Content = styled.div`
   & > a {
@@ -211,7 +219,8 @@ export default props => {
         <Flex alignItems="center" flexDirection="column">
           <Box px={2} width={[1, 1 / 2]}>
             <p>
-            My name is Enpu. I am a software developer and pianist,
+            My name is
+            <a href={resumePDF} view> Enpu</a>. I am a software developer and pianist,
             thinking about the interaction of music and humanity
             in the digital world, currently researching natural
             language processing and electro-acoustic music.
@@ -222,6 +231,23 @@ export default props => {
       <Title small>Portfolio</Title>
       <a id="portfolio">Portfolio</a>
       <Portfolio items={props.data.allMarkdownRemark.edges} />
+
+      <Slider
+        options={{
+          autoPlay: 4000,
+          pauseAutoPlayOnHover: true,
+          wrapAround: true,
+          fullscreen: true,
+          adaptiveHeight: true,
+        }}
+      >
+        {images.map((image, index) => (
+          <div style={{ width: '80%', height: '400px', margin: '0 0.5em' }} key={index}>
+            <img src={image} alt="" />
+          </div>
+        ))}
+      </Slider>
+
       <a id="experience">Experience</a>
       <Section center dark>
         <h4>Experience</h4>
