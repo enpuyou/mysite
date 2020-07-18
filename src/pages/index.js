@@ -237,8 +237,9 @@ export default props => {
           autoPlay: 4000,
           pauseAutoPlayOnHover: true,
           wrapAround: true,
-          fullscreen: true,
+          // fullscreen: true,
           adaptiveHeight: true,
+          lazyLoad: 2,
         }}
       >
         {images.map((image, index) => (
