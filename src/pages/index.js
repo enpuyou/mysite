@@ -267,9 +267,24 @@ export default props => {
       <Section center>
         <h4>HONORS & AWARDS</h4>
         <Item>
-          <span>2018 - 2019</span>
+          <span>May 2020</span>
+          <h6>Outstanding Junior Major Prize</h6>
+          <p>Allegheny College Department of Computer Science</p>
+        </Item>
+        <Item>
+          <span>MAY 2020</span>
+          <h6>Lauretta Good Strayer Memorial Prize</h6>
+          <p>Allegheny College Department of Music</p>
+        </Item>
+        <Item>
+          <span>2018 - 2020</span>
           <h6>Distinguished Alden Scholar</h6>
           <p>Allegheny College</p>
+        </Item>
+        <Item>
+          <span>March 2020</span>
+          <h6>Cupper Scholar</h6>
+          <p>Allegheny College Department of Computer Science</p>
         </Item>
         <Item>
           <span>MAY 2019</span>
