@@ -62,6 +62,7 @@ const StyledText = styled.div`
   right: 50%;
   h1 {
     font-size: 50px;
+    border: none;
   }
   a {
     background:

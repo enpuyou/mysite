@@ -135,9 +135,9 @@ const Section = styled.div`
       h4 {
         color: #fff;
       }
-      /* div {
+      div {
         border-bottom: 1px solid #333 !important;
-      } */
+      }
     `}
 `
 
