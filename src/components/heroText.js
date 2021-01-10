@@ -49,19 +49,19 @@ import { media } from "../utils/style";
 
 const StyledText = styled.div`
   color: #fff;
-  letter-spacing: normal;
+  letter-spacing: 0.006em;
   max-width: 100%;
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.5;
   font-weight: normal;
   /* text-transform: uppercase; */
   font-family: "Raleway";
   position: absolute;
   top: 23%;
   left: 10%;
-  right: 50%;
+  right: 55%;
   h1 {
-    font-size: 50px;
+    font-size: 3rem;
     border: none;
   }
   a {
@@ -83,13 +83,14 @@ const StyledText = styled.div`
   }
 
   ${media.md`
-  left: 25%;
   top: 20%;
+  left: 15%;
+  right: 15%;
 `}
   ${media.xs`
   left: 3%;
-  top: 15%;
-  letter-spacing: 12px;
+  top: 8%;
+  right: 3%;
 `}
 `;
 

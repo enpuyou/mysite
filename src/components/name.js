@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 
 const Base = styled.a`
-  font-size: 20pt;
+  font-size: 1.5em;
   font-family: 'Rubik';
   font-weight: normal;
   color: #fff;
