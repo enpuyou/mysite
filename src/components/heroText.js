@@ -122,7 +122,7 @@ class HeroText extends React.Component {
       <StyledText>
         <h1>Hello</h1>
         {/* <Typist.Backspace count={2} delay={800} /> */}
-        I'm <HoverText>Enpu</HoverText>, a software developer and pianist.
+        I'm <HoverText>Enpu</HoverText>, a <HoverText>software developer</HoverText> and <HoverText>pianist</HoverText>.
         {/* <Typist.Delay ms={400} /> */}
         {/* <Typist.Delay ms={400} /> */}
         <br />
@@ -130,7 +130,7 @@ class HeroText extends React.Component {
         <br />
         I build <a href="https://github.com/enpuyou" target="_blank" rel="noopener noreferrer">Python projects</a> and am learning more about <HoverText>web development</HoverText> and <HoverText>machine learning</HoverText>.
         <br />
-        Currently working on a <a href="https://github.com/enpuyou/hearSound" target="_blank" rel="noopener noreferrer">sound project</a> that extracts musical information from human speech.
+        Currently working on a <a href="https://github.com/enpuyou/hearSound" target="_blank" rel="noopener noreferrer">sound project</a> that extracts musical information from <HoverText>human speech</HoverText>.
         <br />
         Check out my <a href="https://github.com/enpuyou/resume/blob/main/main.pdf" target="_blank" rel="noopener noreferrer">resume</a> and <a href = "mailto: youenpu@gmail.com">get in touch</a>!
         {/* <strong>I Make</strong> Softwares
