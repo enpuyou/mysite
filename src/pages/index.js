@@ -201,7 +201,7 @@ export default props => {
           },
           {
             name: 'fab fa-youtube',
-            href: 'https://www.youtube.com/channel/UC1jivHCNYHYxwruBZgnMtrw?view_as=subscriber',
+            href: 'https://www.youtube.com/channel/UC1jivHCNYHYxwruBZgnMtrw',
           },
         ]}
       />
