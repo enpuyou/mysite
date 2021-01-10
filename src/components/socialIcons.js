@@ -23,13 +23,13 @@ const Base = styled.div`
     text-decoration: none;
   }
   & a:hover span.fa-linkedin {
-    color: #0e76a8;
+    color: #006d77;
   }
   & a:hover span.fa-github-alt {
-    color: #34d058;
+    color: #006d77;
   }
   & a:hover span.fa-youtube {
-    color: #c4302b;
+    color: #006d77;
   }
 `
 
