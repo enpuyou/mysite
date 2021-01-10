@@ -95,7 +95,15 @@ const StyledText = styled.div`
 `;
 
 const HoverText = styled.strong`
-	:hover {
+  &#name:hover span {
+    display:none
+  }
+
+  &#name:hover:before {
+    content:"恩溥";
+  }
+
+	&:hover {
 		color: #ff6b35;
 	}
 `
@@ -122,7 +130,7 @@ class HeroText extends React.Component {
       <StyledText>
         <h1>Hello</h1>
         {/* <Typist.Backspace count={2} delay={800} /> */}
-        I'm <HoverText>Enpu</HoverText>, a <HoverText>software developer</HoverText> and <HoverText>pianist</HoverText>.
+        I'm <HoverText id="name"><span>Enpu</span></HoverText>, a <HoverText>software developer</HoverText> and <HoverText>pianist</HoverText>.
         {/* <Typist.Delay ms={400} /> */}
         {/* <Typist.Delay ms={400} /> */}
         <br />
