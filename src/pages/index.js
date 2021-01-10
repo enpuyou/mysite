@@ -205,7 +205,7 @@ export default props => {
           },
         ]}
       />
-      <a id="about-me">About Me</a>
+      {/* <a id="about-me">About Me</a>
       <Section>
         <Title>About Me</Title>
 
@@ -296,7 +296,7 @@ export default props => {
           <h6>Alden Scholar</h6>
           <p>Allegheny College</p>
         </Item>
-      </Section>
+      </Section> */}
     </Content>
   )
   return (

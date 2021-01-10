@@ -3,18 +3,19 @@ import styled, { css } from 'styled-components'
 
 const Base = styled.a`
   font-size: 20pt;
-  font-family: 'Montserrat';
-  font-weight: 500;
+  font-family: 'Rubik';
+  font-weight: normal;
   color: #fff;
   margin: 20px 0;
   width: fit-content;
   white-space: nowrap;
 
   &:hover {
-    cursor: pointer;
-    -webkit-text-fill-color: transparent;
+    /* cursor: pointer; */
+    text-decoration: none;
+    /* -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif);
+    background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif); */
   }
 
   ${props =>

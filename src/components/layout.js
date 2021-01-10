@@ -44,7 +44,8 @@ const PageBase = ({ location, children }) => {
         ]}
       />
       <Content>{children}</Content>
-      {location && location.pathname != '/404' && <Footer />}
+      {/* {location && location.pathname != '/404' && <Footer />} */}
+      {location && location.pathname != '/404'}
     </Body>
   )
 }
