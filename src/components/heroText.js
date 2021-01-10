@@ -1,53 +1,131 @@
-import React from 'react'
-import styled, { css } from 'styled-components'
-import Typist from 'react-typist'
+import React from "react";
+import styled, { css } from "styled-components";
+import Typist from "react-typist";
 
-import { media } from '../utils/style'
+import { media } from "../utils/style";
 
-const StyledTypist = styled(Typist)`
+// const StyledTypist = styled(Typist)`
+//   color: #fff;
+//   letter-spacing: normal;
+//   max-width: 100%;
+//   font-size: 20px;
+//   line-height: 30px;
+//   font-weight: normal;
+//   /* text-transform: uppercase; */
+//   font-family: "Raleway";
+//   position: absolute;
+//   top: 30%;
+//   left: 10%;
+//   right: 50%;
+
+//   a {
+//     background:
+//       linear-gradient(
+//         to bottom, #ff9800 0%,
+//         #ff9800 100%
+//       );
+//     background-position: 0 100%;
+//     background-repeat: repeat-x;
+//     background-size: 4px 4px;
+//     color: #fff;
+//     text-decoration: none;
+//     transition: background-size .2s;
+//   }
+
+//   a:hover {
+//     background-size: 4px 50px;
+//   }
+
+//   ${media.md`
+//   left: 25%;
+//   top: 20%;
+// `}
+//   ${media.xs`
+//   left: 3%;
+//   top: 15%;
+//   letter-spacing: 12px;
+// `}
+// `;
+
+const StyledText = styled.div`
   color: #fff;
-  letter-spacing: 17px;
+  letter-spacing: normal;
   max-width: 100%;
-  font-size: 72px;
-  line-height: 80px;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-family: 'Raleway';
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: normal;
+  /* text-transform: uppercase; */
+  font-family: "Raleway";
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 23%;
+  left: 10%;
+  right: 50%;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    background:
+      linear-gradient(
+        to bottom, #ff9800 0%,
+        #ff9800 100%
+      );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-size .3s;
+  }
+
+  a:hover {
+    background-size: 4px 50px;
+  }
+
   ${media.md`
   left: 25%;
-  top: 40%;
+  top: 20%;
 `}
   ${media.xs`
   left: 3%;
   top: 15%;
   letter-spacing: 12px;
 `}
-`
+`;
 
 class HeroText extends React.Component {
-  render () {
-    if (this.props.text) {
-      return (
-        <Typist>
-          <StyledTypist {...this.props}>
-            <strong>
-              {this.props.text.split(' ').slice(0, 1)}
-              <br />
-            </strong>
-            {this.props.text
-              .split(' ')
-              .slice(1)
-              .join(' ')}
-          </StyledTypist>
-        </Typist>
-      )
-    }
+  render() {
+    // if (this.props.text) {
+    //   return (
+    //     <Typist>
+    //       <StyledTypist {...this.props}>
+    //         <strong>
+    //           {this.props.text.split(" ").slice(0, 1)}
+    //           <br />
+    //         </strong>
+    //         {this.props.text
+    //           .split(" ")
+    //           .slice(1)
+    //           .join(" ")}
+    //       </StyledTypist>
+    //     </Typist>
+    //   );
+    // }
     return (
-      <StyledTypist cursor={{ show: false }} {...this.props}>
-        <strong>I Make</strong> Softwares
+      <StyledText>
+        <h1>Hello</h1>
+        {/* <Typist.Backspace count={2} delay={800} /> */}
+        <strong>I'm Enpu, </strong>a software developer and pianist.
+        {/* <Typist.Delay ms={400} /> */}
+        {/* <Typist.Delay ms={400} /> */}
+        <br />
+        Currently a senior double majoring in Computer Science and Music at <a href="http://www.allegheny.edu/">Allegheny College</a>.
+        <br />
+        I build <a href="https://github.com/enpuyou">Python projects</a> and am learning more about <strong>web development</strong> and <strong>machine learning</strong>.
+        <br />
+        I'm currently working on a <a href="https://github.com/enpuyou/hearSound">sound project</a> that extracts musical information from human speech.
+        <br />
+        Check out my <a href="https://github.com/enpuyou/resume/blob/main/main.pdf">resume</a> and get in touch.
+        {/* <strong>I Make</strong> Softwares
         <Typist.Backspace count={10} delay={300} />
         <span> Music</span>
         <Typist.Backspace count={6} delay={300} />
@@ -61,10 +139,10 @@ class HeroText extends React.Component {
         <Typist.Delay ms={300} />
         <span>.</span>
         <Typist.Backspace count={29} delay={10} />
-        <strong>But Mostly Just</strong> Cool Stuff
-      </StyledTypist>
-    )
+        <strong>But Mostly Just</strong> Cool Stuff */}
+      </StyledText>
+    );
   }
 }
 
-export default HeroText
+export default HeroText;
