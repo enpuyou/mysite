@@ -66,15 +66,15 @@ const StyledText = styled.div`
   a {
     background:
       linear-gradient(
-        to bottom, #ff9800 0%,
-        #ff9800 100%
+        to bottom, #98c1d9 0%,
+        #98c1d9 100%
       );
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 3px 3px;
+    background-size: 3px 5px;
     color: #fff;
     text-decoration: none;
-    transition: background-size .3s;
+    transition: background-size .4s;
   }
 
   a:hover {
@@ -91,6 +91,12 @@ const StyledText = styled.div`
   letter-spacing: 12px;
 `}
 `;
+
+const HoverText = styled.strong`
+	:hover {
+		color: #ff6b35;
+	}
+`
 
 class HeroText extends React.Component {
   render() {
@@ -114,17 +120,17 @@ class HeroText extends React.Component {
       <StyledText>
         <h1>Hello</h1>
         {/* <Typist.Backspace count={2} delay={800} /> */}
-        <strong>I'm Enpu, </strong>a software developer and pianist.
+        I'm <HoverText>Enpu</HoverText>, a software developer and pianist.
         {/* <Typist.Delay ms={400} /> */}
         {/* <Typist.Delay ms={400} /> */}
         <br />
-        Currently a senior double majoring in Computer Science and Music at <a href="http://www.allegheny.edu/">Allegheny College</a>.
+        Currently a senior at <a href="http://www.allegheny.edu/" target="_blank" rel="noopener noreferrer">Allegheny College</a>, double majoring in Computer Science and Music.
         <br />
-        I build <a href="https://github.com/enpuyou">Python projects</a> and am learning more about <strong>web development</strong> and <strong>machine learning</strong>.
+        I build <a href="https://github.com/enpuyou" target="_blank" rel="noopener noreferrer">Python projects</a> and am learning more about <HoverText>web development</HoverText> and <HoverText>machine learning</HoverText>.
         <br />
-        I'm currently working on a <a href="https://github.com/enpuyou/hearSound">sound project</a> that extracts musical information from human speech.
+        Currently working on a <a href="https://github.com/enpuyou/hearSound" target="_blank" rel="noopener noreferrer">sound project</a> that extracts musical information from human speech.
         <br />
-        Check out my <a href="https://github.com/enpuyou/resume/blob/main/main.pdf">resume</a> and get in touch.
+        Check out my <a href="https://github.com/enpuyou/resume/blob/main/main.pdf" target="_blank" rel="noopener noreferrer">resume</a> and <a href = "mailto: youenpu@gmail.com">get in touch</a>!
         {/* <strong>I Make</strong> Softwares
         <Typist.Backspace count={10} delay={300} />
         <span> Music</span>
