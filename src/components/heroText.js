@@ -125,7 +125,7 @@ class HeroText extends React.Component {
         {/* <Typist.Delay ms={400} /> */}
         {/* <Typist.Delay ms={400} /> */}
         <br />
-        Currently a senior at <a href="http://www.allegheny.edu/" target="_blank" rel="noopener noreferrer">Allegheny College</a>, double majoring in Computer Science and Music.
+        Currently a senior at <a href="http://www.allegheny.edu/" target="_blank" rel="noopener noreferrer">Allegheny College</a>, double majoring in <HoverText>Computer Science</HoverText> and <HoverText>Music</HoverText>.
         <br />
         I build <a href="https://github.com/enpuyou" target="_blank" rel="noopener noreferrer">Python projects</a> and am learning more about <HoverText>web development</HoverText> and <HoverText>machine learning</HoverText>.
         <br />
