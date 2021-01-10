@@ -80,6 +80,7 @@ const StyledText = styled.div`
 
   a:hover {
     background-size: 4px 50px;
+    color: #22223b;
   }
 
   ${media.md`
@@ -89,7 +90,7 @@ const StyledText = styled.div`
 `}
   ${media.xs`
   left: 3%;
-  top: 8%;
+  top: 15%;
   right: 3%;
 `}
 `;
@@ -101,6 +102,8 @@ const HoverText = styled.strong`
 
   &#name:hover:before {
     content:"恩溥";
+    color: #cce3de;
+    font-weight: bold;
   }
 
 	&:hover {
