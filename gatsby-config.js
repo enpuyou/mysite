@@ -99,7 +99,8 @@ module.exports = {
         start_url: "/",
         background_color: "#292929",
         theme_color: "#405375",
-        display: "minimal-ui"
+        display: "minimal-ui",
+        icon: `static/apple-touch-icon.png`
       }
     },
     {

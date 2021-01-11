@@ -4,8 +4,6 @@ import { Flex, Box } from 'grid-styled'
 import styled, { css } from 'styled-components'
 import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
-import { Document } from 'react-pdf'
-import resumePDF from '../../static/resume.pdf'
 
 import { media } from '../utils/style'
 
