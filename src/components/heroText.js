@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import Typist from "react-typist";
+import TypistLoop from 'react-typist-loop'
 
 import { media } from "../utils/style";
 
@@ -46,6 +47,14 @@ import { media } from "../utils/style";
 //   letter-spacing: 12px;
 // `}
 // `;
+
+const StyledTypist = styled(Typist)`
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+`;
 
 const StyledText = styled.div`
   color: #fff;
@@ -129,9 +138,19 @@ class HeroText extends React.Component {
     //     </Typist>
     //   );
     // }
+
     return (
       <StyledText>
-        <h1>Hello</h1>
+        <TypistLoop interval={400}>
+          {[
+            'Hello!',
+            '你好 👋',
+          ].map(text =>
+          <StyledTypist key={text} delay={1000}>
+            {text}
+            <Typist.Backspace count={text.length} delay={1000} />
+          </StyledTypist>)}
+        </TypistLoop>
         {/* <Typist.Backspace count={2} delay={800} /> */}
         I'm <HoverText id="name"><span>Enpu</span></HoverText>, a <HoverText>software developer</HoverText> and <HoverText>pianist</HoverText>.
         {/* <Typist.Delay ms={400} /> */}
@@ -144,21 +163,6 @@ class HeroText extends React.Component {
         Currently working on a <a href="https://github.com/enpuyou/hearSound" target="_blank" rel="noopener noreferrer">sound project</a> that extracts musical information from <HoverText>human speech</HoverText>.
         <br />
         Check out my <a href="https://github.com/enpuyou/resume/blob/main/main.pdf" target="_blank" rel="noopener noreferrer">resume</a> and <a href = "mailto: youenpu@gmail.com">get in touch</a>!
-        {/* <strong>I Make</strong> Softwares
-        <Typist.Backspace count={10} delay={300} />
-        <span> Music</span>
-        <Typist.Backspace count={6} delay={300} />
-        <span> Coffee</span>
-        <Typist.Backspace count={7} delay={300} />
-        <span> Poor Life Decisions</span>
-        <Typist.Delay ms={100} />
-        <span>.</span>
-        <Typist.Delay ms={200} />
-        <span>.</span>
-        <Typist.Delay ms={300} />
-        <span>.</span>
-        <Typist.Backspace count={29} delay={10} />
-        <strong>But Mostly Just</strong> Cool Stuff */}
       </StyledText>
     );
   }
