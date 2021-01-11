@@ -16,14 +16,6 @@ import SocialIcons from '../components/socialIcons'
 import Portfolio from '../components/portfolio'
 import Showcase from '../components/showcase'
 
-import TagManager from 'react-gtm-module'
-
-const tagManagerArgs = {
-    gtmId: 'GTM-KBMCLN8'
-}
-
-TagManager.initialize(tagManagerArgs)
-
 const Content = styled.div`
   & > a {
     visibility: hidden;
