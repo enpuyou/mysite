@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome'
 
 const Icon = ({ name, href }) => (
   <a href={href}>
-    <FontAwesome name={name} />
+    <FontAwesome name={name} size="1x"/>
   </a>
 )
 
@@ -21,8 +21,9 @@ const Base = styled.div`
   }
   & a:hover {
     text-decoration: none;
+    color: #006d77;
   }
-  & a:hover span.fa-linkedin {
+  /* & a:hover span.fa-linkedin {
     color: #006d77;
   }
   & a:hover span.fa-github-alt {
@@ -30,7 +31,7 @@ const Base = styled.div`
   }
   & a:hover span.fa-youtube {
     color: #006d77;
-  }
+  } */
 `
 
 class SocialIcons extends React.Component {

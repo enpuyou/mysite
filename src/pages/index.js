@@ -190,16 +190,20 @@ export default props => {
         }}
         icons={[
           {
-            name: 'github-alt',
+            name: 'github',
             href: 'https://github.com/enpuyou',
           },
           {
-            name: 'linkedin',
-            href: 'https://linkedin.com/in/enpuyou',
+            name: 'twitter',
+            href: 'https://twitter.com/enpuyou',
           },
           {
-            name: 'fab fa-youtube',
+            name: 'youtube-play',
             href: 'https://www.youtube.com/channel/UC1jivHCNYHYxwruBZgnMtrw',
+          },
+          {
+            name: 'linkedin-square',
+            href: 'https://linkedin.com/in/enpuyou',
           },
         ]}
       />
