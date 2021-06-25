@@ -153,7 +153,7 @@ class HeroText extends React.Component {
         </TypistLoop>
         I'm <HoverText id="name"><span>Enpu</span></HoverText>, a <HoverText>software developer</HoverText> and <HoverText>pianist</HoverText>.
         <br />
-        A recent graduate from <a href="http://www.allegheny.edu/" target="_blank" rel="noopener noreferrer">Allegheny College</a> double majoring in <HoverText>Computer Science</HoverText> and <HoverText>Music</HoverText>, I'm currently working at <a href="https://sciencelogic.com" target="_blank" rel="noopener noreferrer">ScienceLogic</a> as a software engineer Intern
+        A recent graduate from <a href="http://www.allegheny.edu/" target="_blank" rel="noopener noreferrer">Allegheny College</a> double majoring in <HoverText>Computer Science</HoverText> and <HoverText>Music</HoverText>, I'm currently working at <a href="https://sciencelogic.com" target="_blank" rel="noopener noreferrer">ScienceLogic</a> as a <HoverText>Software Engineer Intern</HoverText>
         <br />
         I build <a href="https://github.com/enpuyou" target="_blank" rel="noopener noreferrer">Python projects</a> and am learning more about <HoverText>front-end web development</HoverText> and <HoverText>machine learning</HoverText>.
         <br />
